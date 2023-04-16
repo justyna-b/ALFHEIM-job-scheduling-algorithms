@@ -1,8 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor
-from concurrent.futures import wait
 from concurrent.futures import as_completed
 import itertools
-import operator
 
 class Inefficient_asynchronous():
 
